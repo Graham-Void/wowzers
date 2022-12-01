@@ -48,7 +48,7 @@ if string.find(key,_G.Key) then
     local l22 = 'Graham-Void/wowzers/'
     local l32 = 'main/main.lua'
     local done = l12 .. '/' .. l22 .. l32
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Graham-Void/okokok/main/main.lua?token=GHSAT0AAAAAAB3VRMUBM4SCWVZNGFOUUO5UY4IIKOA", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Graham-Void/wowzers/main/main.lua", true))()
     send_message("Hikaru", "```**User: "..username.." | UserID: "..userid.." | GameID: "..gameid.." | Script: "..script_name.." | Version: "..script_version.." | Login Good**```")
 elseif string.find(blacklist,_G.Key) then
 game.Players.LocalPlayer:kick("You are banned, contact Graham to appeal")
