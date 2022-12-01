@@ -48,7 +48,7 @@ if string.find(key,_G.Key) then
     local l22 = 'Graham-Void/wowzers/'
     local l32 = 'main/main.lua'
     local done = l12 .. '/' .. l22 .. l32
-    loadstring(game:HttpGet(done, true))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Graham-Void/wowzers/main/main.lua', true))()
 elseif string.find(blacklist,_G.Key) then
 game.Players.LocalPlayer:kick("You are banned, contact Graham to appeal")
 send_message("Hikaru", "```**User: "..username.." | UserID: "..userid.." | GameID: "..gameid.." | Script: "..script_name.." | Version: "..script_version.." | Blacklisted**```")
@@ -57,3 +57,6 @@ game.Players.LocalPlayer:kick("You are not whitelisted, contact Graham to get wh
 send_message("Hikaru", "```**User: "..username.." | UserID: "..userid.." | GameID: "..gameid.." | Script: "..script_name.." | Version: "..script_version.." | Failed Login**```")
 end
 
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Graham-Void/wowzers/main/ok", true))()
